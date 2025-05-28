@@ -161,3 +161,15 @@ Validáció - A termék megfelel e a felhasználói igényeknek és elvárásokn
 #### ✅ Mi az adatvezérelt tesztelés és miért hasznos?
 - Adatvezérelt tesztelés egy szoftvertesztelési módszer, amelyben a tesztadatokat táblázat vagy táblázat formájában tárolják. Az adatvezérelt tesztelés lehetővé teszi a tesztelők számára, hogy egyetlen tesztszkriptet vigyenek be, amely képes tesztelni egy tábla összes tesztadatát, és a tesztkimenetet ugyanabban a táblában várja
 - A tesztelők gyakran több adatkészlettel rendelkeznek egyetlen teszthez, és az egyes adatkészletekhez egyedi tesztek létrehozása időigényes lehet. Az adatvezérelt tesztelés segít az adatok elkülönítésében a tesztszkriptektől, és ugyanazok a tesztszkriptek futtathatók a bemeneti tesztadatok különböző kombinációihoz, és a teszteredmények hatékonyan generálhatók
+
+#### ✅ Mik a kihívások és ajánlott eljárások a dinamikusan betöltött webes elemekkel?
+
+#### ✅ Mik a mobil tesztautomatizálás kihívásai?
+
+## Haladó témák
+<img src="https://www.softwaretestinghelp.com/wp-content/qa/uploads/2020/05/DevOps-in-a-Selenium-Testing.png" alt="image" width="320" height="220">
+
+#### ✅ Mi a különbség a CI és CD között?
+#### ✅ Írj le egy Continuous Delivery folyamatot!
+#### ✅ Hasonlítsd össze két népszerű CI rendszert, ezek közül az egyik legyen a Jenkins!
+#### ✅ Mi a Docker és miért hasznos?
