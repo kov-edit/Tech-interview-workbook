@@ -163,13 +163,52 @@ Validáció - A termék megfelel e a felhasználói igényeknek és elvárásokn
 - A tesztelők gyakran több adatkészlettel rendelkeznek egyetlen teszthez, és az egyes adatkészletekhez egyedi tesztek létrehozása időigényes lehet. Az adatvezérelt tesztelés segít az adatok elkülönítésében a tesztszkriptektől, és ugyanazok a tesztszkriptek futtathatók a bemeneti tesztadatok különböző kombinációihoz, és a teszteredmények hatékonyan generálhatók
 
 #### ✅ Mik a kihívások és ajánlott eljárások a dinamikusan betöltött webes elemekkel?
+- KIhívások:
+    - Időzítési problémák
+    - Felesleges lépések
+    - Néhány tartalom nehezen indexelhető
+    - Nehezebb debugolás
+- Ajánlott eljárások:
+    - Lazy loading
+    - MutationObserver használata változásokhoz
+    - Dinamikus tartalom optimalizálása
 
 #### ✅ Mik a mobil tesztautomatizálás kihívásai?
+- Sok verzió, platfrom létezik, különböző nagyságokkal, specifikációkkal, stb
+- Időzítési problémák, nem megjelenő elemek, máshogy viselkedő animációk
+- Gyakran változó felület, más UI kinézet esetleg különböző modelleken
 
 ## Haladó témák
 <img src="https://www.softwaretestinghelp.com/wp-content/qa/uploads/2020/05/DevOps-in-a-Selenium-Testing.png" alt="image" width="320" height="220">
 
 #### ✅ Mi a különbség a CI és CD között?
+- CI: fordítás és tesztelés, és minden olyan tevékenység amivel megnézhetjük, hogy a kód összetétele működik e
+- CD: a CI után integrált termékek, telepítés, esetleg automatizálás
+
 #### ✅ Írj le egy Continuous Delivery folyamatot!
+- Kézbesítő csapat -> Verzió kontroll -> Build és unit tesztek -> Automatizált elfogadási teszt -> Felhasználói elfogadási teszt -> Kiadás
+
 #### ✅ Hasonlítsd össze két népszerű CI rendszert, ezek közül az egyik legyen a Jenkins!
+- Jenkins előnyei:
+    - Nagymértékben testreszabható
+    - Független a GitHub-tól, akár privát szerveren is futhat
+    - Jól skálázható nagy projektekhez
+
+- Jenkins hátrányai:
+    - Magasabb karbantartási igény (saját szerver, frissítések)
+    - Kevesebb natív integráció más eszközökkel
+
+- GitHub Actions előnyei:
+    - Könnyen kezelhető YAML konfiguráció
+    - Zökkenőmentes GitHub integráció
+    - Felhőalapú, kevés beállítási erőfeszítés
+
+- GitHub Actions hátrányai:
+    - Korlátozottabb testreszabás (nincs annyi plugin)
+    - GitHub-függő (nem használható más git platformokkal)
+
 #### ✅ Mi a Docker és miért hasznos?
+- A Docker egy konténerizációs platform, amely lehetővé teszi alkalmazások és függőségeik elkülönített, hordozható konténerekben való futtatását
+- Gyorsabb mint a virtuális gépek
+- Egyszerű telepítés és skálázás (pl. Kubernetes-szel kombinálva)
+- Isoláció (egy konténer nem befolyásolja a másikat)
